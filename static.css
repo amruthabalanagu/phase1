@@ -1,0 +1,96 @@
+body{
+	background: aqua;
+}
+.maindiv{
+	background: chocolate;
+	display: flex;
+	/*flex-wrap: wrap;*/
+	justify-content: space-around;
+	margin: 8%;
+}
+.leftdiv{
+	background: bisque;
+	margin: 5%;
+	width:25%;
+	border-radius: 5%;
+	text-align: center;
+	height:70%;
+}
+.rightdiv{
+	background: bisque;
+	margin:5%;
+	width:55%;
+	border-radius: 5%;
+	padding: 4%;
+}
+img{
+	margin: 5%;
+	width:40%;
+	height:40%;
+	border-radius :5%;
+}
+@media screen and (min-width: 320px) and (max-width: 480px){
+	body{
+	background: aqua;
+}
+.maindiv{
+	background: chocolate;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin: 15%;
+}
+.leftdiv{
+	background: bisque;
+	margin: 5%;
+	width:90%;
+	border-radius: 5%;
+	text-align: center;
+	height:15%;
+}
+.rightdiv{
+	background: bisque;
+	margin:5%;
+	width:90%;
+	border-radius: 3%;
+	padding: 1%;
+}
+img{
+	margin: 5%;
+	width:40%;
+	height:40%;
+	border-radius :5%;
+}
+}
+@media screen and (min-width: 481px) and (max-width: 670px){
+		body{
+	background: red;
+}
+.maindiv{
+	background: chocolate;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction:column;
+	justify-content: space-around;
+	margin: 15%;
+}
+.leftdiv{
+	background: bisque;
+	margin: 5%;
+	width:80%;
+	border-radius: 5%;
+	text-align: center;
+}
+.rightdiv{
+	background: bisque;
+	width:80%;
+	border-radius: 3%;
+	padding: 1%;
+}
+img{
+	margin: 5%;
+	width:40%;
+	height:40%;
+	border-radius :5%;
+}
+}

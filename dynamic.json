@@ -1,0 +1,43 @@
+{
+	"profile":{
+		"img":"profile.png",
+		"name":"Amrutha",
+		"rollno":"1203",
+		"place":"guntur",
+		"email":"amruthabalanagu@gmail.com"
+	},
+	"career":{
+		"info":"i want to seek a job in reputed company to explore my skills"
+	},
+	"education":[
+		{
+           "degree":"btech",
+           "institute":"vignan",
+           "per":"85%",
+           "yop":"2018"
+        },
+        {
+           "degree":"btech",
+           "institute":"vignan",
+           "per":"83%",
+           "yop":"2019"
+        },
+        {
+           "degree":"btech",
+           "institute":"vignan",
+           "per":"82%",
+           "yop":"2020"
+        }
+   ],
+   "languages":[
+   	 {
+	   "info":"english"
+     },
+     {
+	    "info":"telugu"
+     },
+     {
+	     "info":"hindi"
+     }
+    ]
+}
